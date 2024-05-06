@@ -1,0 +1,13 @@
+.errorForm{
+    display: none;
+    color: red;
+    font-family: Cambria;
+    font-size: 14px;
+    opacity: 65%;
+}
+
+.formulario{
+    margin-top: 130px;
+    border-style: solid;
+    padding: 60px;
+}
