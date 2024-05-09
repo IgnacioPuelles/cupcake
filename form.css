@@ -1,3 +1,15 @@
+@font-face{
+    font-family: Merienda;
+    src: url(resources/Merienda-VariableFont_wght.ttf);
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: ABeeZee;
+    src: url(resources/ABeeZee-Regular.ttf);
+    font-weight: 400;
+}
+
 .errorForm{
     display: none;
     color: red;
@@ -7,7 +19,84 @@
 }
 
 .formulario{
-    margin-top: 130px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     border-style: solid;
+    border-width: 1px;
+    border-color: #a18052;
     padding: 60px;
+    font-family: AbeeZee;
+}
+
+.titulo_form{
+    text-align: center;
+    width: 260px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    justify-self: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-family: Merienda;
+    font-style: oblique;
+}
+
+.titulo_form_top{
+    padding: 50px; 
+    position: relative;
+}
+
+.titulo{
+    background-color: #a18052;
+    height: 3px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+.text_form{
+    margin-top: 100px; 
+    text-align: center; 
+    font-family: Merienda;
+}
+
+.container_modal{
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+}
+
+.modal_form{
+    display: none;
+    background-color: white;
+    width: 570px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a18052;
+}
+
+.modal_close{
+    font-size: 30px;
+}
+
+.modal_close:hover,
+.modal_close:focus {
+  color: rgb(177, 177, 177);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal_content{
+    font-family: Abeezee;
+    font-size: 16px;
+    color: black;
 }

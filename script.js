@@ -2,6 +2,10 @@ $(document).ready(function(){
 
     var fEmail =  /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
+    $("#form").submit(function(event) {
+        event.preventDefault();
+    });
+
     $("#btn-enviar").click(function(){
 
         var flag = false;
@@ -35,12 +39,21 @@ $(document).ready(function(){
             $("#eMensaje").fadeOut();
         }
 
-        if(flag){
-            return false;
-        }else{
-            return true;
+        if (!flag){
+            $("#cont_modal").fadeIn();
+
+            $("#nombre").val("");
+            $("#email").val("");
+            $("#asunto").val("");
+            $("#mensaje").val("");
         }
 
+        return !flag;
+
     });
+
+    $("#mod_close").click(function(){
+        $("#cont_modal").fadeOut();
+    })
 
 });

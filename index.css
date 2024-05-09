@@ -1,0 +1,21 @@
+.car_div{
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a18052;
+    padding: 30px;
+}
+
+.car_text{
+    font-size: 20px;
+    position: absolute; 
+    color: white; 
+    font-family: Merienda;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0px;
+}
