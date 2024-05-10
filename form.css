@@ -10,6 +10,23 @@
     font-weight: 400;
 }
 
+.form-div{
+    background-color: white;
+    position: relative;
+    padding: 10px 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a18052;
+    z-index: -2;
+    width: 60%;
+    max-width: 1400px;
+    min-width: 500px;
+
+}
+
 .errorForm{
     display: none;
     color: red;
@@ -40,7 +57,7 @@
     left: 0;
     right: 0;
     font-family: Merienda;
-    font-style: oblique;
+    z-index: 2;
 }
 
 .titulo_form_top{
@@ -55,7 +72,7 @@
     top: 80px;
     left: 0;
     right: 0;
-    z-index: -2;
+    z-index: 1;
 }
 
 .text_form{
