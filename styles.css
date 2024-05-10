@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #a3a3a3ce; 
+}
+
+.navbar-custom {
+    padding: 20px 0; 
+}
+
+.navbar-brand img {
+    height: 100px; 
+    width: auto; 
+}
+
+.navbar-nav .nav-link {
+    color: #000000; 
+    margin-right: 30px; 
+    font-size: 25px; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.btn-iniciar-sesion {
+    background-color: #ff69b4; 
+    border-color: #ff69b4; 
+}
+
+.btn-iniciar-sesion:hover {
+    background-color: #ff69b4; 
+    border-color: #ff69b4; 
+}
+
+.btn-buscar {
+    background-color: #ff69b4; 
+    border-color: #ff69b4; 
+    color: #fff; 
+}
+
+.btn-buscar:hover {
+    background-color: #ff69b4; 
+    border-color: #ff69b4; 
+    color: #000000; 
+}
+
+.btn-blanco {
+    background-color: #ff69b4; 
+    border-color: #ff69b4;
+    margin-right: 10px; 
+}
+
+.btn-blanco:hover {
+    background-color: #ff69b4; 
+    border-color: #ff69b4; 
+}
+
+body {
+    font-family: 'Merienda';
+    font-weight: 600;
+}
