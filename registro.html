@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 
-<body class="container fondo_login">
+<body class="">
     <div class="container container-login" style="min-width: 500px;">
         <h1 class="inicio-login">
             Crear cuenta
@@ -18,20 +18,40 @@
         <br><br>
         <form>
             <div class="mb-3">
-                <input type="text" class="form-control border-success" id="exampleInputEmail1"
-                    placeholder="Ingrese su nombre">
+                <div class="row">
+                    <div class="col">
+                        <P class="texto_relleno">Ingrese su Nombre</P>
+                    </div>
+                    <div class="col">
+                        <P class="texto_relleno">Ingrese su Apellido</P>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control border-success" id="RegInputName"
+                            placeholder="Ian">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control border-success" id="RegInputLastName"
+                            placeholder="Puelles">
+                    </div>
+                </div>
+                
             </div>
             <div class="mb-3">
-                <input type="email" class="form-control border-success" id="exampleInputEmail1"
-                    placeholder="Ingrese su correo">
+                <P class="texto_relleno">Ingrese su correo</P>
+                <input type="email" class="form-control border-success" id="RegInputEmail"
+                    placeholder="ejemplo@mail.com">
             </div>
             <div class="mb-3">
-                <input type="password" class="form-control border-success" id="exampleInputPassword1"
-                    placeholder="Ingrese su contraseña">
+                <P class="texto_relleno">Ingrese su contraseña</P>
+                <input type="password" class="form-control border-success" id="RegInputPassword"
+                    placeholder="**************">
             </div>
             <div class="mb-3">
-                <input type="password" class="form-control border-success" id="exampleInputPassword1"
-                    placeholder="Repita su contraseña">
+                <P class="texto_relleno">Repita su contraseña</P>
+                <input type="password" class="form-control border-success" id="RegInputPassword1"
+                    placeholder="**************">
             </div>
             <a href="" type="submit" class="btn btn-primary"
                 style=" width: 100%; height: 40px; margin-top: 30px; margin-bottom: 30px;">Registrarse</a>

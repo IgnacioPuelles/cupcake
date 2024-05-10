@@ -2,21 +2,23 @@
     font-size: 35px; 
     text-align: center; 
     font-family:'Times New Roman', Times, serif; 
-    color: white;
-    
+    color: black;
 }
 .container-login{
-    padding-top: 10%;
+    padding-top: 5%;
     min-width:max-content;
     min-height:max-content;
+    max-width: max-content;
+    max-height: max-content;
     width: 40%;
     margin-top: 10%;
-    border-width: 7px;
-    border-radius: 4rem;
-    background-color: darkcyan;
+    border-width: 0.5px;
+    min-width: 500px;
+    border-color: black;
+    border-style: solid;
 }
 .texto-login{
-    color: rgb(255, 255, 255);
+    color: black;
     text-decoration: underline;
     font-size: large;
 }
@@ -26,11 +28,14 @@
     margin-top: 30px; 
     margin-bottom: 30px;
 }
-.fondo_login{
-    background-image: url('pictures/fondo_login.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-attachment: fixed; 
-    height: 100%; 
-    width: 100%;
+.texto_relleno{
+    color: black;
+    font-size: large;
+}
+.img_logo{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.a{
+    filter: invert(1);
 }
