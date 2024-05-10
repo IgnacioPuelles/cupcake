@@ -3,18 +3,14 @@
     text-align: center; 
     font-family:'Times New Roman', Times, serif; 
     color: black;
+    
 }
 .container-login{
-    padding-top: 5%;
+    padding-top: 10%;
     min-width:max-content;
     min-height:max-content;
-    max-width: max-content;
-    max-height: max-content;
     width: 40%;
-    margin-top: 10%;
-    border-width: 0.5px;
-    min-width: 500px;
-    border-color: black;
+    border-width: 1.5px;
     border-style: solid;
 }
 .texto-login{
@@ -28,14 +24,12 @@
     margin-top: 30px; 
     margin-bottom: 30px;
 }
-.texto_relleno{
-    color: black;
-    font-size: large;
-}
-.img_logo{
-    text-align: center;
-    margin-bottom: 5%;
-}
-.a{
-    filter: invert(1);
+.btn-style{
+   width: 30%;
+   height: 40px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   background-color: #c5d8b8;
+   border-radius: 0%;
+   color: black;
 }
