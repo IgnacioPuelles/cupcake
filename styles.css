@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #449216ce; 
+    background-color: #a3a3a3ce; 
 }
 
 .navbar-custom {
@@ -7,16 +7,12 @@
 }
 
 .navbar-brand img {
-    height: 50px; 
+    height: 100px; 
     width: auto; 
 }
 
 .navbar-nav .nav-link {
-    color: #ff69b4; 
-    text-shadow: -1px -1px 0 #000,  
-                 1px -1px 0 #000,
-                -1px  1px 0 #000,
-                 1px  1px 0 #000; 
+    color: #000000; 
     margin-right: 30px; 
     font-size: 25px; 
 }
@@ -47,6 +43,18 @@
     color: #000000; 
 }
 
+.btn-blanco {
+    background-color: #ff69b4; 
+    border-color: #ff69b4;
+    margin-right: 10px; 
+}
+
+.btn-blanco:hover {
+    background-color: #ff69b4; 
+    border-color: #ff69b4; 
+}
+
 body {
-    font-family: 'Lobster', cursive;
+    font-family: 'Merienda';
+    font-weight: 600;
 }
