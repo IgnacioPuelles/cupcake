@@ -23,7 +23,7 @@
     z-index: -2;
     width: 60%;
     max-width: 1400px;
-    min-width: 500px;
+    min-width: 800px;
 
 }
 
@@ -43,6 +43,7 @@
     border-color: #a18052;
     padding: 60px;
     font-family: AbeeZee;
+    z-index: 10;
 }
 
 .titulo_form{
@@ -85,12 +86,13 @@
     position: sticky;
     bottom: 0;
     z-index: 1;
+    padding: 0px;
 }
 
 .modal_form{
     display: none;
     background-color: white;
-    width: 570px;
+    width: 440px;
     height: 60px;
     position: fixed;
     bottom: 0;
@@ -99,10 +101,13 @@
     border-style: solid;
     border-width: 1px;
     border-color: #a18052;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
 }
 
 .modal_close{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .modal_close:hover,
