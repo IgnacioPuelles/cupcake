@@ -1,6 +1,9 @@
+
+
+
 .fondo-index{
-    background-image: url('img/fondo.png');
-    background-color: rgba(255,255,255,0.4);
+    background-color: #faeee3;
+    
     background-blend-mode: lighten;
     height: 100%; 
     width: 100%;    
@@ -10,7 +13,7 @@
 }
 
 .navbar {
-    background-color: rgba(161, 228, 152, 1); 
+    background-color: #fdcf76; 
     height: 80px;
 }
 
@@ -19,26 +22,27 @@
 }
 
 .navbar-collapse{
-    background-color: rgba(161, 228, 152, 1); 
+    background-color: #fdcf76; 
     z-index: 3;
     padding: 15px;
 }
 
 .navbar-brand img {
-    height: 50px; 
+    height: 75px; 
     width: auto; 
+    
 }
 
 .navbar-nav .nav-link {
     color: #fdfdfd; 
     margin-right: 30px; 
-    font-size: 15px; 
+    font-size: 23px; 
     font-family: Merienda;
     font-weight: bold;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #e085c9;
+    color: #a18052;
 }
 
 .search-index{
@@ -55,30 +59,36 @@
     border-width: 0;
     margin-top: 7px;
     margin-right: 10px;
+    color: black;
 }
 
 .img-navbar-1{
     width: auto;
-    height: 35px;
-    margin-top: 4px;
-    margin-left: 0;
+    height: 46px;
+    margin-top: 2px;
+    margin-left: 25px;
     filter:invert(100%);
+    
 }
 
 .img-navbar-2{
     width: auto;
-    height: 29px;
-    margin-top: 7px;
-    margin-left: 10px;
+    height: 39px;
+    margin-top: 6px;
+    margin-left: 15px;
+    margin-right: 40px;
     filter:invert(100%);
+    
 }
 
 .img-navbar-1:hover,
 .img-navbar-2:hover{
-    filter: invert(69%) sepia(5%) saturate(1590%) hue-rotate(263deg) brightness(104%) contrast(98%);
+    filter: invert(53%) sepia(33%) saturate(545%) hue-rotate(355deg) brightness(92%) contrast(84%);
     cursor: pointer;
+    
 }
 
 .search-index:focus{
     outline: none;
+   
 }

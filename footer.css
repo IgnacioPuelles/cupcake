@@ -5,7 +5,7 @@
 }
 
 footer{
-    background-color: rgba(161, 228, 152, 1);
+    background-color: #eaccad;
 }
 
 .footercontainer{
@@ -16,13 +16,13 @@ footer{
 .iconos{
     display: flex;
     justify-content: center;
-    background-color: rgba(161, 228, 152, 1);
+    background-color: #eaccad;
 }
 
 .iconos a{
     text-decoration: none;
     padding: 10px;
-    background-color: rgba(161, 228, 152, 1);
+    background-color: #e8c39e;
     margin: 10px;
     border-radius: 50%;
 }
@@ -55,7 +55,7 @@ footer{
 }
 
 .footernav ul li a{
-    color: white;
+    color: black;
     margin: 20px;
     text-decoration: none;
     font-size: 1.3em;
@@ -68,13 +68,13 @@ footer{
 }
 
 .footerbotton{
-    background-color: rgba(161, 228, 152, 0.6);
+    background-color: #eaccad;
     padding-bottom: 10px;
     text-align: center;
 }
 
 .footerbotton p{
-    color:rgb(255, 255, 255);
+    color:black;
 }
 
 .designer{

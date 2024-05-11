@@ -59,11 +59,14 @@
     right: 0;
     font-family: Merienda;
     z-index: 2;
+
+   
 }
 
 .titulo_form_top{
     padding: 50px; 
     position: relative;
+    
 }
 
 .titulo{
@@ -115,6 +118,7 @@
   color: rgb(177, 177, 177);
   text-decoration: none;
   cursor: pointer;
+  
 }
 
 .modal_content{
