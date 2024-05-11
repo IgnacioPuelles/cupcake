@@ -21,15 +21,16 @@
 
                 <br><br>
                 <form id="Login" onsubmit="return validarLog()">
-                    <div class="mb-3">
-                        <P class="texto_relleno">Ingrese su correo</P>
+                    <div class="mb-3"> 
+                        <label for="LoginEmail" class="texto_relleno" style="margin-bottom: 5px;">Ingrese su correo</label>
                         <input type="email" style="border-color: black; border-radius: 0%;" class="form-control"
-                            id="LoginEmail" placeholder="ejemplo@mail.com">
+                            id="LoginEmail" placeholder="ejemplo@mail.com" >
+                            
                         <div id="valCorreoLog" style="color: red;"></div>
                     </div>
 
                     <div class="mb-3">
-                        <P class="texto_relleno">Ingrese su contraseña</P>
+                        <label for="LoginPass" class="texto_relleno" style="margin-bottom: 5px;">Ingrese su contraseña</P>
                         <input type="password" style="border-color: black; border-radius: 0%;" class="form-control"
                             id="LoginPass" placeholder="**************" style="border-color: black;">
                         <div id="valPassLog" style="color: red;"></div>
@@ -97,10 +98,10 @@
                         <P class="texto_relleno">Repita su contraseña</P>
                         <input type="password" style="border-color: black; border-radius: 0%;" class="form-control "
                             id="RegInputPassword1" placeholder="**************">
-                            <div id="valPassreg1" style="color: red;"></div>
+                            <div id="valPassReg1" style="color: red;"></div>
                     </div>
                     <div style="text-align: center;">
-                        <a href="" type="submit" class="btn btn-primary btn-style">Registrarse</a>
+                        <a href="#" onclick="return validarReg()" class="btn btn-primary btn-style">Registrarse</a>
                     </div>
                     <div style="padding-bottom: 5px; text-align: center;">
                         <a href="login.html">
