@@ -8,11 +8,10 @@
     margin-top: 50px;
     margin-left: 0;
     margin-right: 0;
-    border-style: solid;
     border-width: 1px;
-    border-color: #a18052;
+    border-color: #a16852;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;       
     position: relative;
     box-sizing: border-box;
 }
@@ -60,7 +59,6 @@
 .div_categoria{
     margin-top: 50px;
     margin-bottom: 50px;
-    border-style: solid;
     border-width: 1px;
     border-color: rgb(161, 128, 82);
     padding: 50px;
@@ -114,7 +112,7 @@
     left: 50%;
     transform: translate(-50%,50%);
 }
-.card-category span{
+.card-category a{
     font-size: 1.6rem;
     color: #fff;
     cursor: pointer;
