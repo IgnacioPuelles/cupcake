@@ -10,6 +10,23 @@
     font-weight: 400;
 }
 
+.form-div{
+    background-color: white;
+    position: relative;
+    padding: 10px 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a18052;
+    z-index: -2;
+    width: 60%;
+    max-width: 1400px;
+    min-width: 800px;
+
+}
+
 .errorForm{
     display: none;
     color: red;
@@ -26,6 +43,7 @@
     border-color: #a18052;
     padding: 60px;
     font-family: AbeeZee;
+    z-index: 10;
 }
 
 .titulo_form{
@@ -40,12 +58,15 @@
     left: 0;
     right: 0;
     font-family: Merienda;
-    font-style: oblique;
+    z-index: 2;
+
+   
 }
 
 .titulo_form_top{
     padding: 50px; 
     position: relative;
+    
 }
 
 .titulo{
@@ -55,7 +76,7 @@
     top: 80px;
     left: 0;
     right: 0;
-    z-index: -2;
+    z-index: 1;
 }
 
 .text_form{
@@ -68,12 +89,13 @@
     position: sticky;
     bottom: 0;
     z-index: 1;
+    padding: 0px;
 }
 
 .modal_form{
     display: none;
     background-color: white;
-    width: 570px;
+    width: 440px;
     height: 60px;
     position: fixed;
     bottom: 0;
@@ -82,10 +104,13 @@
     border-style: solid;
     border-width: 1px;
     border-color: #a18052;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
 }
 
 .modal_close{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .modal_close:hover,
@@ -93,6 +118,7 @@
   color: rgb(177, 177, 177);
   text-decoration: none;
   cursor: pointer;
+  
 }
 
 .modal_content{

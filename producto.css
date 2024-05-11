@@ -1,0 +1,67 @@
+@font-face{
+    font-family: "Merienda";
+    src: url(resources/Merienda-VariableFont_wght.ttf);
+    font-weight: 600;
+}
+
+.menu-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    gap: 7rem;
+    align-items: center;
+    margin-top: 4rem;
+    cursor: pointer;
+    margin-left: 85px;
+    margin-right: 85px;
+    
+}
+
+.row img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px; 
+}
+
+.row{
+    transition: all .40s ease;
+}
+
+.producto{
+    padding-top: 110px;
+}
+
+.menu-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.menu-teft h4{
+    font-size: 23px;
+    font-family: "Merienda";
+
+}
+
+.menu-right h5{
+    color:  #7a5c3c;
+    font-size: 23px;
+}
+
+.row p{
+    color: green;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.row:hover{
+    transform: scale(1.02);
+}
+
+.main-text h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Merienda";
+}

@@ -6,6 +6,8 @@
 
 .car-div{
     margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
     border-style: solid;
     border-width: 1px;
     border-color: #a18052;
@@ -38,6 +40,7 @@
     text-align: center;
     font-weight: 500;
     font-size: 3rem;
+    color: black;
 }
 
 .top-categoria{
@@ -59,7 +62,7 @@
     margin-bottom: 50px;
     border-style: solid;
     border-width: 1px;
-    border-color: #a18052;
+    border-color: rgb(161, 128, 82);
     padding: 50px;
     width: 100%;
 }
