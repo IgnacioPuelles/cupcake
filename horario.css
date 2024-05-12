@@ -27,6 +27,47 @@
 
 }
 
+.horario-div {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.horario-div table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.horario-div th,
+.horario-div td {
+    padding: 15px;
+    border: none;
+    font-size: 22px;
+}
+
+.horario-div th {
+    background-color: #f7efe9;
+    font-weight: bold;
+}
+
+.horario-div td {
+    background-color: #fff; 
+    text-align: left;
+}
+
+.horario-div tbody tr:nth-child(even) {
+    background-color: #f7efe9; 
+}
+
+.horario-div td:nth-child(2) {
+    text-align: right;
+}
+
 .errorForm{
     display: none;
     color: red;
@@ -59,11 +100,14 @@
     right: 0;
     font-family: Merienda;
     z-index: 2;
+
+   
 }
 
 .titulo_form_top{
     padding: 50px; 
-    position: relative; 
+    position: relative;
+    
 }
 
 .titulo{
@@ -115,6 +159,7 @@
   color: rgb(177, 177, 177);
   text-decoration: none;
   cursor: pointer;
+  
 }
 
 .modal_content{

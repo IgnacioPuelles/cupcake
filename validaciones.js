@@ -20,6 +20,10 @@ function validarLog() {
         PassLogError.innerText = '';
     }
 
+    if(mailLogError.innerText === '' && PassLogError.innerText === ''){
+        alert('Se inicio sesión correctamente.');
+        window.location.href = "index.html";
+    }
     return false;
 }
 
@@ -38,30 +42,37 @@ function validarReg(){
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (nombre.length < 3) {
-        valNom.innerText = 'Nombre debe tener largo de minimo 3 caracteres.';
-    }else{
+        valNom.innerText = 'Nombre debe tener largo de mínimo 3 caracteres.';
+    } else {
         valNom.innerText = '';
     }
     if (apell.length < 4) {
-        valApell.innerText = 'Apellido debe tener largo de minimo 4 caracteres.';
-    }else{
+        valApell.innerText = 'Apellido debe tener largo de mínimo 4 caracteres.';
+    } else {
         valApell.innerText = '';
     }
     if (!emailPattern.test(mail)) { 
         valMail.innerText = 'Formato de correo no válido.';
-
     } else {
         valMail.innerText = '';
     }
     if (pass.length < 8) {
-        valPass.innerText = 'contraseña debe tener largo de minimo 4 caracteres.';
-    }else{
+        valPass.innerText = 'Contraseña debe tener largo de mínimo 8 caracteres.';
+    } else {
         valPass.innerText = '';
     }
-    if(pass1 != pass){
-        valPass1.innerText = 'Las contraseñas deben coincidir.'
-    }else{
+    if (pass1 !== pass) {
+        valPass1.innerText = 'Las contraseñas deben coincidir.';
+    } else {
         valPass1.innerText = '';
+    }
+    if (pass1 === '') {
+        valPass1.innerText = 'Por favor, repita la contraseña.';
+    }
+
+    if (valNom.innerText === '' && valApell.innerText === '' && valMail.innerText === '' && valPass.innerText === '' && valPass1.innerText === '') {
+        alert('Su cuenta ha sido creada.');
+        window.location.href = "index.html";
     }
 
     return false;
