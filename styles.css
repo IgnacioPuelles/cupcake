@@ -1,15 +1,10 @@
-
-
-
 .fondo-index{
     background-color: #faeee3;
-    
     background-blend-mode: lighten;
     height: 100%; 
     width: 100%;    
     z-index: -5;
     position: relative;
-
 }
 
 .navbar {
