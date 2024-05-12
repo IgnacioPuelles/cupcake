@@ -4,6 +4,9 @@
     font-weight: 600;
 }
 
+
+
+
 .menu-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,auto));
@@ -13,6 +16,7 @@
     cursor: pointer;
     margin-left: 85px;
     margin-right: 85px;
+    
     
 }
 
@@ -44,12 +48,12 @@
 }
 
 .menu-right h5{
-    color:  #7a5c3c;
+    color:  #7a3d3c;
     font-size: 23px;
 }
 
 .row p{
-    color: green;
+    color: black;
     font-size: 15px;
     line-height: 30px;
     margin-bottom: 15px;
@@ -64,4 +68,8 @@
     margin-bottom: 10px;
     text-align: center;
     font-family: "Merienda";
+}
+
+.body-color{
+    background-color: #faeee3;
 }
