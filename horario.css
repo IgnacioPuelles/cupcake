@@ -1,0 +1,169 @@
+@font-face{
+    font-family: Merienda;
+    src: url(resources/Merienda-VariableFont_wght.ttf);
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: ABeeZee;
+    src: url(resources/ABeeZee-Regular.ttf);
+    font-weight: 400;
+}
+
+.form-div{
+    background-color: white;
+    position: relative;
+    padding: 10px 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a18052;
+    z-index: -2;
+    width: 60%;
+    max-width: 1400px;
+    min-width: 800px;
+
+}
+
+.horario-div {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.horario-div table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.horario-div th,
+.horario-div td {
+    padding: 15px;
+    border: none;
+    font-size: 22px;
+}
+
+.horario-div th {
+    background-color: #f7efe9;
+    font-weight: bold;
+}
+
+.horario-div td {
+    background-color: #fff; 
+    text-align: left;
+}
+
+.horario-div tbody tr:nth-child(even) {
+    background-color: #f7efe9; 
+}
+
+.horario-div td:nth-child(2) {
+    text-align: right;
+}
+
+.errorForm{
+    display: none;
+    color: red;
+    font-family: Cambria;
+    font-size: 14px;
+    opacity: 65%;
+}
+
+.formulario{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a18052;
+    padding: 60px;
+    font-family: AbeeZee;
+    z-index: 10;
+}
+
+.titulo_form{
+    text-align: center;
+    width: 260px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    justify-self: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-family: Merienda;
+    z-index: 2;
+
+   
+}
+
+.titulo_form_top{
+    padding: 50px; 
+    position: relative;
+    
+}
+
+.titulo{
+    background-color: #a18052;
+    height: 3px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.text_form{
+    margin-top: 100px; 
+    text-align: center; 
+    font-family: Merienda;
+}
+
+.container_modal{
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    padding: 0px;
+}
+
+.modal_form{
+    display: none;
+    background-color: white;
+    width: 440px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a18052;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.modal_close{
+    font-size: 25px;
+}
+
+.modal_close:hover,
+.modal_close:focus {
+  color: rgb(177, 177, 177);
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.modal_content{
+    font-family: Abeezee;
+    font-size: 16px;
+    color: black;
+}
