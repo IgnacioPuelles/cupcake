@@ -1,4 +1,3 @@
-
 button{
     background-color: #47a486;
     border: 0;
@@ -27,6 +26,7 @@ button{
     pointer-events:auto;
     opacity: 1;
 }
+
 .modal{
     background-color: white;
     width: 600px;
